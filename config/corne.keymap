@@ -92,7 +92,7 @@
 		bindings = <
 		&gresc     &kp Q        &kp W         &kp F       &kp P       &kp B   	&kp J         &kp L        &kp U       &kp Y          &kp SQT         &kh ESC BSLH 
 		&kp TAB    &hml LCTRL A &hml LSHIFT R &hml LGUI S &hml LALT T &kp G     &kh EQUAL M   &hmr RALT N  &hmr RGUI E &hmr RSHIFT I  &hmr RCTRL O    &kp SEMI
-		&mo NUM    &hl NUM Z    &kp X         &kp C       &kp D       &kp V   	&kh QMARK K   &kh COLON H  &kp COMMA   &kp DOT        &kh QMARK SLASH &kp EQUAL
+		&mo NUM    &lt NUM Z    &kp X         &kp C       &kp D       &kp V   	&kh QMARK K   &kh COLON H  &kp COMMA   &kp DOT        &kh QMARK SLASH &kp EQUAL
           		                         &mo SYM    &lt LSHIFT TAB &kp ENTER 	&bspc_del     &kp SPACE    &lt SYS DEL
 		>;
 		};
