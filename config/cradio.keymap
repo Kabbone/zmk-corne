@@ -1,0 +1,7 @@
+#define CONFIG_WIRELESS
+
+
+/* source keypos definitions */
+#include "zmk-helpers/key-labels/34.h"
+#include "base.keymap"
+
