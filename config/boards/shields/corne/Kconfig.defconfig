@@ -7,6 +7,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_USB
+    default y
+
 config ZMK_SPLIT
     default y
 
@@ -15,9 +18,9 @@ config ZMK_SPLIT
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 2
 config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-    default n
+    default y
 config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
-    default n
+    default y
 
 # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
@@ -28,3 +31,4 @@ config BT_MAX_PAIRED
     default 5
 
 endif
+
